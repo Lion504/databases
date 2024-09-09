@@ -19,9 +19,13 @@ SELECT name FROM countries WHERE name like "F%";
 
 ###Q6
 SELECT name FROM countries WHERE name like "%F%";
+
 <img width="496" alt="Exercise2 - Q6" src="https://github.com/user-attachments/assets/542423ac-558a-4005-af0c-ff3b9bddbf97">
 
-###Q7 My Professor, you should provide game data for us, without it how can I complete this quiz
+###Q7 
+
+My Professor, you should provide game data for us, without it how can I complete this quiz
+
 select location from game where screen_name = "Vesa";
 
 Week 3 Exercise 3
