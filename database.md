@@ -43,6 +43,7 @@ select co2_consumed from game where screen_name = 'Ilkka';
 select screen_name, co2_budget,co2_consumed, (co2_budget - co2_consumed) AS co2_left
     -> from game
     -> where screen_name = 'Ilkka';
+    
 <img width="751" alt="Exercise2-Q10" src="https://github.com/user-attachments/assets/261786c5-ca84-4690-8854-70d773f7b846">
 
 ##Week 3 Exercise 3
