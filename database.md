@@ -28,5 +28,27 @@ My Professor, you should provide game data for us, without it how can I complete
 
 select location from game where screen_name = "Vesa";
 
-Week 3 Exercise 3
+##Week 3 Exercise 3
+
+###Q1
+select country.name as "country name", airport.name as "airport name"
+from airport, country
+where airport.iso_country = country.code = "IS" and country.name = "Iceland" limit 20;
+<img width="865" alt="Exercise 3 Q1" src="https://github.com/user-attachments/assets/84467c2c-b27a-4652-9607-abcd107ba798">
+
+###Q2
+select airport.name as 'airport name'
+from airport, country
+where country.name = 'France' and airport.type = 'large_airport' limit 30;
+<img width="865" alt="Exercise 3 Q2" src="https://github.com/user-attachments/assets/74e274d7-f2c8-4fd6-bbd5-39dfd61fe445">
+
+###Q3
+select country.name as 'country_name', airport.name as 'airport_name'
+from country, airport
+where country.name = 'Antarctica' limit 30;
+<img width="865" alt="Exercise 3 Q3" src="https://github.com/user-attachments/assets/75dbbfce-57b9-4077-8f74-aed20ced9852">
+
+###Q4 & Q5 & Q6 & Q7 & Q9 & Q10 can pass via Moodle,  Q8* not possible
+My Professor, you should provide game data for us, without that how can I know their information?
+
 
