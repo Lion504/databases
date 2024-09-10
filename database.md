@@ -11,6 +11,7 @@ Q: 1, 2, 8, 9, 10 submit from Moodle. However, Q2 has a wrong answer.
 
 ###Q2
 select name, type from airport where iso_country = 'FI';
+
 <img width="524" alt="Exercise2-Q2" src="https://github.com/user-attachments/assets/b34fcebb-5237-4827-aa95-91369cc7a2cb">
 
 ###Q3 
