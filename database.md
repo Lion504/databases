@@ -1,3 +1,7 @@
+##Announcement: 
+1. The countries.csv data have some problems, originally the fields they have are id , code , name, continent, wikipedia_link, keywords. But in some of the countries there are 1-3 more fields after the keywords column. The traditional way will not be able to load this .csv file.
+2. To load dumpfile.sql which is flight_game.sql, we should copy this file from Moodle to local file, then use Windows shell command: mysql -u root -p game < "/path/name.sql"
+
 ##Week 1 upload by Moodle
 
 ##Week 2 has no Exercise 
