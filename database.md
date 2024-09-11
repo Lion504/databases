@@ -7,8 +7,7 @@
 ##Week 2 has no Exercise 
 
 ##Week 3 Exercise 2
-Q: 1, 2, 8, 9, 10 submit from Moodle. However, Q2 has a wrong answer.
-
+Q: 1, 2, 8, 9, 10 submit from Moodle. 
 ###Q2
 select name, type from airport where iso_country = 'FI';
 
@@ -47,6 +46,7 @@ select screen_name, co2_budget,co2_consumed, (co2_budget - co2_consumed) AS co2_
 <img width="751" alt="Exercise2-Q10" src="https://github.com/user-attachments/assets/261786c5-ca84-4690-8854-70d773f7b846">
 
 ##Week 3 Exercise 3
+###Q4 & Q5 & Q6 & Q7 & Q9 & Q10 can pass via Moodle
 
 ###Q1
 select country.name as "country name", airport.name as "airport name"
@@ -54,7 +54,8 @@ from airport, country
 where airport.iso_country = country.code = "IS" and country.name = "Iceland" limit 20;
 <img width="865" alt="Exercise 3 Q1" src="https://github.com/user-attachments/assets/84467c2c-b27a-4652-9607-abcd107ba798">
 
-###Q2
+###Q2 Moodle has wrong answer
+
 select airport.name as 'airport name'
 from airport, country
 where country.name = 'France' and airport.type = 'large_airport' limit 30;
@@ -66,7 +67,13 @@ from country, airport
 where country.name = 'Antarctica' limit 30;
 <img width="865" alt="Exercise 3 Q3" src="https://github.com/user-attachments/assets/75dbbfce-57b9-4077-8f74-aed20ced9852">
 
-###Q4 & Q5 & Q6 & Q7 & Q9 & Q10 can pass via Moodle,  Q8* not possible
-My Professor, you should provide game data for us, without that how can I know their information?
+###Q8
+ select name
+    -> from goal, goal_reached, game
+    -> where game.id = game_id and goal.id = goal_id and screen_name = "Heini";
+    
+<img width="637" alt="WindowsTerminal_BZ0yA8j1pc" src="https://github.com/user-attachments/assets/cf36e4be-4a5e-4cab-acbc-36d16d0023a2">
+
+##Week 4 Exercise 4
 
 
