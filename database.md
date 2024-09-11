@@ -95,4 +95,13 @@ select airport.name, screen_name
 
 <img width="591" alt="Week4-Q4" src="https://github.com/user-attachments/assets/f94f8394-342d-43e8-bd37-a247e5351c19">
 
+##Week5 Exercise6
+
+###Q2
+select continent, count(*)
+    -> from country
+    -> group by continent;
+
+<img width="538" alt="Exercise6-Q1" src="https://github.com/user-attachments/assets/ed839f4f-26fd-483b-882a-60bb1217aace">
+
 
