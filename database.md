@@ -76,4 +76,23 @@ where country.name = 'Antarctica' limit 30;
 
 ##Week 4 Exercise 4
 
+###Q1
+SELECT country.name AS "country name", airport.name AS "airport name"
+    -> FROM country
+    -> INNER JOIN airport ON airport.iso_country = country.iso_country
+    -> WHERE country.name = 'Finland' AND airport.scheduled_service = 'yes';
+<img width="650" alt="Week4-Q1" src="https://github.com/user-attachments/assets/6db06cf3-98ac-4f2b-9e00-ecb25beef5fe">
+
+###Q3
+select screen_name, country.name
+    -> from game inner join airport on location = ident inner join country on airport.iso_country = country.iso_country;
+
+<img width="850" alt="Week4-Q3" src="https://github.com/user-attachments/assets/23d57c02-942b-4d63-90c4-dacd249aa14b">
+
+###Q4
+select airport.name, screen_name
+    -> from airport left join game on ident = location where name like "%Hels%";
+
+<img width="591" alt="Week4-Q4" src="https://github.com/user-attachments/assets/f94f8394-342d-43e8-bd37-a247e5351c19">
+
 
