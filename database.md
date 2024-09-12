@@ -310,5 +310,20 @@ select count(*)
 
 <img width="247" alt="Exercise6-Q10" src="https://github.com/user-attachments/assets/cabb2267-8ecc-4983-ab52-0e5a62992138">
 
-##Week
+##Week5 Exercise7
+###1
+ update game
+    -> set  location = (select ident from airport where name = "Nottingham Airport"), co2_consumed = co2_consumed+500
+    -> where screen_name = "Vesa";
+<img width="825" alt="7-Q1" src="https://github.com/user-attachments/assets/4f20acc8-688d-49ff-9ee0-d2faa2d3e92c">
+
+###2
+goal_reached
+
+###3
+DELETE FROM goal_reached WHERE game_id = 'some_game_id';
+<img width="533" alt="7-Q3" src="https://github.com/user-attachments/assets/93d3ab39-9c18-4ae4-bd5c-4cb7b3fcd18a">
+
+###4  DELETE FROM game WHERE id = 'some_game_id'
+<img width="433" alt="7-Q4" src="https://github.com/user-attachments/assets/dc7bd6c1-8fd9-4e24-a7c1-06e54bc28171">
 
