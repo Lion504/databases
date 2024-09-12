@@ -171,6 +171,8 @@ select name, screen_name
     -> );
 
 <img width="306" alt="Exercise5-Q1" src="https://github.com/user-attachments/assets/57123c57-171a-4c41-a4a6-ec7d93ae274d">
+
+
 ###Q2
  select name
     -> from airport where
@@ -322,8 +324,10 @@ goal_reached
 
 ###3
 DELETE FROM goal_reached WHERE game_id = 'some_game_id';
+
 <img width="533" alt="7-Q3" src="https://github.com/user-attachments/assets/93d3ab39-9c18-4ae4-bd5c-4cb7b3fcd18a">
 
 ###4  DELETE FROM game WHERE id = 'some_game_id'
+
 <img width="433" alt="7-Q4" src="https://github.com/user-attachments/assets/dc7bd6c1-8fd9-4e24-a7c1-06e54bc28171">
 
