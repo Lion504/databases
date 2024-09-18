@@ -3,6 +3,8 @@
 2. To load dumpfile.sql which is flight_game.sql, we should copy this file from Moodle to local file, then use Windows shell command: mysql -u root -p game < "/path/name.sql" after that we have already get airport, country, game, goal, goal_reached those 5 tables.
 
 ##Week 1 upload by Moodle
+<img width="1130" alt="DatabasesPeriod1-Grade " src="https://github.com/user-attachments/assets/e61ca356-9bda-464e-8218-973ac599cbe7">
+<img width="984" alt="DatabasePeriod1-OverallView" src="https://github.com/user-attachments/assets/f122dab4-7b49-4807-923f-491977321d5c">
 
 ##Week 2 has no Exercise 
 
